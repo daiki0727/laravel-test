@@ -1,0 +1,41 @@
+.thanks__content {
+    margin: 150px auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.thanks__logo {
+    position: relative;
+    color: #f9f8f8;
+    text-align: center;
+    text-decoration: none;
+    font-size: 240px;
+    font-family: 'Gelasio', serif;
+}
+
+.thanks__heading {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #82756A;
+
+    text-align: center;
+}
+
+.home__button {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 600px;
+}
+
+.home__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+}

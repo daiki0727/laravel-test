@@ -1,0 +1,93 @@
+.header__logo {
+    position: relative;
+}
+
+.header__login {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.header__button {
+    padding: 5px 30px;
+    border: solid 2px #BAA899;
+    background: #F6F6F6;
+    color: #BAA899;
+    text-decoration: none;
+    font-family: 'Gelasio', serif;
+    cursor: pointer;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px 100px 15px;
+    max-width: 1500px;
+    background-color: #F1ECE6;
+}
+
+.contact-form__heading {
+    font-size: 20px;
+    font-family: 'Gelasio', serif;
+    color: #82756A;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    padding: 50px;
+    width: 45%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.form__group {
+    color: #BAA899;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 400px;
+    text-align: left;
+
+}
+
+.form__label--item {
+    font-weight: bold;
+}
+
+.form__input--text input {
+    padding: 15px;
+    width: 400px;
+    color: #BAA899;
+    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #82756A;
+    color: #fff;
+    font-size: 120%;
+    cursor: pointer;
+}

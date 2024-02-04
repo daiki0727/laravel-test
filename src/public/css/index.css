@@ -1,0 +1,171 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    font-size: 20px;
+    font-family: 'Gelasio', serif;
+    color: #82756A;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    color: #BAA899;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 1px;
+    padding: 4px 2px;
+    color: #ff9292;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.error-name {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+
+.form__error--name {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    color: #BAA899;
+    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--name,
+.form__input--tel {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--name input {
+    color: #BAA899;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 280px;
+    border: 1px solid #f4f4f4;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--tel input {
+    color: #BAA899;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #f4f4f4;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--button,
+.form__select {
+    width: 600px;
+    text-align: left;
+}
+
+select {
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 350px;
+    border: 1px solid #f4f4f4;
+    border-radius: 3px;
+    color: #BAA899;
+    cursor: pointer;
+}
+
+
+
+
+/*ラジオボタン*/
+.gender__radio {
+    display: none;
+    font-family: 'Gelasio', serif;
+}
+
+.gender__radio+label {
+    padding-left: 30px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.gender__radio+label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.1px;
+    left: 1px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #BAA899;
+    border-radius: 50%;
+}
+
+.gender__radio:checked+label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.1px;
+    left: 1px;
+    width: 20px;
+    height: 20px;
+    background: #BAA899;
+    border-radius: 50%;
+}
+
+/*ラジオボタン*/
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+    resize: none;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #BAA899;
+    color: #fff;
+    font-size: 120%;
+    cursor: pointer;
+}
